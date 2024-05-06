@@ -1,5 +1,5 @@
 import "./Post.css";
-import postImg from "../assets/post-img.webp";
+import postImg from "../../assets/post-img.webp";
 
 export default function Post() {
 	return (
@@ -7,8 +7,8 @@ export default function Post() {
 			<img className="postImg" src={postImg} alt="eco development" />
 			<div className="postInfo">
 				<div className="postCategories">
-					<div className="postCategory">Music</div>
-					<div className="postCategory">Life</div>
+					<span className="postCategory">Music</span>
+					<span className="postCategory">Life</span>
 				</div>
 				<span className="postTitle">Lorem ipsum sit.</span>
 				<hr />

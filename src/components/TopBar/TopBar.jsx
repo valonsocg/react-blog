@@ -1,5 +1,5 @@
 import "./TopBar.css";
-import userImg from "../assets/program-astro.avif";
+import userImg from "../../assets/program-astro.avif";
 
 export default function Topbar() {
 	return (

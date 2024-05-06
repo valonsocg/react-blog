@@ -1,5 +1,5 @@
 import "./Header.css";
-import headerBg from "../assets/gallito-background.jpg";
+import headerBg from "../../assets/gallito-background.jpg";
 
 export default function Header() {
 	return (
