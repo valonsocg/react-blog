@@ -14,12 +14,22 @@
     position: absolute;
     top: 18%;
     font-size: 20px;
+    text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+         1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+         1px  1px 0 rgb(255, 255, 255); 
 }
 
 .headerTitleLarge{
     position: absolute;
     top: 20%;
     font-size: 100px;
+    text-shadow: 
+        -1px -1px 0 rgb(255, 255, 255),  
+         1px -1px 0 rgb(255, 255, 255),
+        -1px  1px 0 rgb(255, 255, 255),
+         1px  1px 0 rgb(255, 255, 255); 
 }
 
 .headerBg{

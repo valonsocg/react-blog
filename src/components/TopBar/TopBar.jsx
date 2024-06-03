@@ -1,5 +1,6 @@
 import "./TopBar.css";
 import userImg from "../../assets/program-astro.avif";
+import { NavLink, Link } from "react-router-dom";
 
 export default function Topbar() {
 	return (
@@ -13,11 +14,28 @@ export default function Topbar() {
 				</div>
 				<div className="topCenter">
 					<ul className="topList">
-						<li className="topListItem">HOME</li>
-						<li className="topListItem">ABOUT</li>
-						<li className="topListItem">CONTACT</li>
-						<li className="topListItem">WRITE</li>
-						<li className="topListItem">LOGOUT</li>
+						<li className="topListItem">
+							<NavLink
+								to="/"
+								style={({ isActive }) => ({
+									textDecoration: isActive ? "none" : undefined,
+								})}
+							>
+								HOME
+							</NavLink>
+						</li>
+						<li className="topListItem">
+							<NavLink to="/">ABOUT</NavLink>
+						</li>
+						<li className="topListItem">
+							<NavLink to="/">CONTACT</NavLink>
+						</li>
+						<li className="topListItem">
+							<NavLink to="/write">WRITE</NavLink>
+						</li>
+						<li className="topListItem">
+							<Link to="/">LOGOUT</Link>
+						</li>
 					</ul>
 				</div>
 				<div className="topRight">
